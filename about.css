@@ -159,6 +159,10 @@ color: #c0601c;
     padding: 5% 0%;
 }
 
+.content3{
+    align-items: center;
+}
+
 .ourHistory{
     font-family: 'Poppins', sans-serif;
   font-weight: 900;
@@ -173,13 +177,28 @@ font-size: 0.85em;
 }
 
 .coverContainer{
-height: 30%;
+    padding : 0px;
+    position: relative;
 }
 
 .coverContainer > img{
     width: 100%;
+    border-radius: 10px;
+    box-shadow: 1px 1px 50px rgb(216, 216, 216);
 }
 
-.content3{
-    align-items: center;
+.coverContainer > p{
+    position: absolute;
+    top : 15%;
+    background-color: #f6f6f6f1;
+    left: 60px;
+    right: 60px;
+    text-align: center;
+    padding: 30px ;
+    border-radius: 10px;
+        font-family: 'Poppins', sans-serif;
+  color: #0f2f34;
+font-weight: bolder;
+font-style: italic;
+
 }
